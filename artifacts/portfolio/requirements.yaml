@@ -1,0 +1,22 @@
+packages:
+  "framer-motion": "Animations, page transitions, and staggered reveals"
+  "react-markdown": "Rendering blog content"
+  "remark-gfm": "Markdown Github Flavored Markdown support"
+  "react-syntax-highlighter": "Code block highlighting for Python and blogs"
+  "@types/react-syntax-highlighter": "Types for syntax highlighter"
+  "date-fns": "Date formatting"
+  "react-hook-form": "Form handling for blog CRUD"
+  "@hookform/resolvers": "Zod resolver for forms"
+
+images:
+  - path: "artifacts/portfolio/public/images/hero-bg.png"
+    description: "Abstract minimal tech background, deep dark obsidian and glowing cyan geometric mesh, subtle light leaks, high-end 3D render, dark mode"
+    aspect_ratio: "16:9"
+  - path: "artifacts/portfolio/public/images/avatar.png"
+    description: "Stylized premium 3D minimalist avatar of a software developer in a dark hoodie, clean dark background, subtle teal rim lighting, professional and sleek"
+    aspect_ratio: "1:1"
+
+notes:
+  - Github API does not require authentication for public repos, but rate limits may apply.
+  - Blog post API hooks are imported from @workspace/api-client-react.
+  - Slug generation for blog posts is assumed to be handled by the backend, or we find posts by matching the slug from the list endpoint.
